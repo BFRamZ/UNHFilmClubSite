@@ -2,7 +2,7 @@
 
 https://docs.google.com/document/d/1aQydp8USh6HV-NAWUs7StxSVmWoF-iB7z3Ave10JmcU/edit
 
-Keep this document in mind when coding! 
+^ link to our checkpoint 4 doc ^ 
 
 !! things to keep in mind !!
 

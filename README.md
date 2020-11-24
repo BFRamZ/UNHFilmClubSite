@@ -21,3 +21,16 @@ video class for videos,,    photo class for photos / imgs,,   link class for lin
 NAVIGATION:
 
 each page will have a navigation, as discussed. One of can create this navigation bar, and then we can copy + paste onto each our pages.
+
+COLORS FOR USE:
+
+#003591 UNH Blue
+
+#001d52 Darker Blue
+
+#cb4d0b Orange 
+
+#A3A9AC Gray (For Background)
+
+
+

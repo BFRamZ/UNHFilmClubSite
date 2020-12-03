@@ -53,16 +53,30 @@ body {
 	height: 21px;
 }
 
-.toggle-button .bar {
+.toggle-button .bar-1, .bar-2, .bar-3 {
 	height: 3px;
 	width: 100%;
 	background-color: white;
 	border-radius: 10px;
+	transition: all 400ms ease-in-out;
 }
 
 @media (max-width: 768px) {
 	.toggle-button {
-		display:flex;
+		display: flex;
+	}
+	
+	.toggle-button.open .bar-2 {
+		background: transparent;
+		transform: translate(-30px);
+	}
+	
+	.toggle-button.open .bar-1 {
+		transform: translate(10px, 10px) rotate(-45deg);
+	}
+	
+	.toggle-button.open .bar-3 {
+		transform: translate(10px, -8px) rotate(45deg);
 	}
 	
 	.navbar-links {
@@ -90,7 +104,15 @@ body {
 	}
 
 	.navbar-links.active {
+		animation: dropDown 400ms ease-in-out forwards;
+		transform-origin: top center;
 		display: flex;
 	}
-}
 	
+	@keyframes dropDown {
+		0% {transform: scaleY(0);}
+		80% {transform: scaleY(1);}
+		100% {transform: scaleY(1);}
+	}
+	
+}

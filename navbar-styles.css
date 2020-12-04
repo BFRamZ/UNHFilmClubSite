@@ -72,6 +72,7 @@ body {
 @media (max-width: 768px) {
 	.toggle-button {
 		display: flex;
+		cursor: pointer;
 	}
 	
 	.toggle-button.open .bar-2 {

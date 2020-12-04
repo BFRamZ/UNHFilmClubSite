@@ -1,21 +1,22 @@
 Add this to the body in your HTML code:
 
-<nav class="navbar">
-	<div class="brand-title">UNH Film Club</div>
-	<a href="#" class="toggle-button">
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-	</a>
-	<div class="navbar-links">
-		<ul>
-			<li><a href="#">Homepage</a></li>
-			<li><a href="#">Films</a></li>
-			<li><a href="#">Members</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</div>
-</nav>
+<div class="wrapper">
+	<nav class="navbar">
+		<div class="brand-title">UNH Film Club</div>
+		<a href="#" class="toggle-button">
+			<span class="bar-1"></span>
+			<span class="bar-2"></span>
+			<span class="bar-3"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a href="#">Homepage</a></li>								<li><a href="#">Films</a></li>
+				<li><a href="#">Members</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>	
 		
 
 Make sure to add these to the head:

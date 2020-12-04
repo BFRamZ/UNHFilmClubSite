@@ -8,6 +8,8 @@ body {
 	font-family: Helvetica;
 }
 
+/* The wrapper class keeps the navigation bar fixed to the top of the screen */
+
 .wrapper {
 	position: fixed;
 	top: 0;
@@ -69,12 +71,16 @@ body {
 	transition: all 300ms ease-in-out;
 }
 
+/* The hamburger icon will appear on smaller screens/mobile devices */
+
 @media (max-width: 768px) {
 	.toggle-button {
 		display: flex;
 		cursor: pointer;
 	}
 	
+/* Nifty animation for the hamburger icon when clicked */	
+
 	.toggle-button.open .bar-2 {
 		background: transparent;
 		transform: translate(-30px);
@@ -87,6 +93,8 @@ body {
 	.toggle-button.open .bar-3 {
 		transform: translate(10px, -8px) rotate(45deg);
 	}
+
+/* Formatting the navigation links */
 	
 	.navbar-links {
 		width: 100%;
@@ -112,6 +120,8 @@ body {
 		padding: .5rem 1rem;
 	}
 
+/* Drop down animation for links when the hamburger icon is clicked */
+	
 	.navbar-links.open  {
 		animation: dropDown 300ms ease-in-out forwards;
 		transform-origin: top center;

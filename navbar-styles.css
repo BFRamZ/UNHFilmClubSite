@@ -119,11 +119,7 @@ body {
 		position: absolute;
 		top: 44px;
 	}
-	
-	.navbar-links.close {
-		background-color: red;
-	}
-	
+
 	@keyframes dropDown {
 		0% {transform: scaleY(0);}
 		100% {transform: scaleY(1);}

@@ -3,7 +3,7 @@ Add this to the body in your HTML code:
 <div class="wrapper">
 	<nav class="navbar">
 		<div class="brand-title">UNH Film Club</div>
-		<a href="#" class="toggle-button">
+		<a class="toggle-button">
 			<span class="bar-1"></span>
 			<span class="bar-2"></span>
 			<span class="bar-3"></span>

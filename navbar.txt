@@ -4,7 +4,9 @@ Add this to the body in your HTML code:
 	<nav class="navbar">
 		<div class="header">
 			<div class="brand-title">UNH Film Club</div>
-			<img class="logo" src="X1OFHbad.png" width="53" height="48" alt="UNH 			     Film logo">
+			<a href="#" class="logoHome">
+				<img class="logo" src="X1OFHbad.png" width="53" height="48" alt="UNH 			     	     Film logo">
+			</a>
 			<a class="toggle-button">
 				<span class="bar-1"></span>
 				<span class="bar-2"></span>

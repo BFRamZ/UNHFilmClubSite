@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #001d52;
+	font-family: Helvetica;
+}
+
+h1 {
+	margin-top: 3.75rem;
+	margin-bottom: 0.75rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 0.50rem;
+	color: white;
+	text-shadow: 4px 4px black;
+}
+
+/* To optimize this for all screen sizes, the member container will always
+have a width relative to 50% of the viewport. */
+
+.members-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50vw;
+	margin: 0 auto;
+}
+
+.member {
+	border: 3px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	margin-top: 0.50rem;
+	margin-bottom: 1rem;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0rem;
+}
+
+.photo-desc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.photo {
+	border: 2px black solid;
+}
+
+/* This media rule slightly alters the format of the member entries. */
+
+@media (min-width: 1200px) {
+	
+	.info {
+		align-items: flex-start;
+	}
+	
+	.photo-desc {
+		flex-direction: row;
+		padding-bottom: 0.50rem;
+	}
+
+	.name {
+		margin-top: 0.50rem;
+		margin-bottom: 0.50rem;
+		text-align: center;
+	}
+
+	.description {
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+		font-size: 1.10rem;
+	}
+
+/* On very large screens, the font size will increase to fill out each
+member entry better. */
+
+@media (min-width: 1600px) {
+	.description {
+		font-size: 1.25rem;
+	}
+}
+	
+}
+
+
+
+
+

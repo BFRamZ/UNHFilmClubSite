@@ -17,10 +17,20 @@ h1, h2 {
   color: #ffffff;
 }
 
+h1{
+  text-shadow: 4px 4px black;
+
+}
+
+h2{
+  text-decoration: underline;
+}
+
 
 p {
   text-align: inherit;
   font: Helvetica;
+  font-size: 20px;
   color: black;
   background-color: white;
   padding: 20px;
@@ -28,6 +38,11 @@ p {
 
 main{
   margin: 25px;
+}
+
+.filmProj_vid_item{
+  display: flex;
+  flex-shrink: 1;
 }
 
 
@@ -40,7 +55,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-between;
   }
 
@@ -87,6 +102,17 @@ main{
   .filmProj_vid_item{
     height: auto;
     margin: 25px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-shadow: 4px 4px black;
+
+  }
+
+  h2{
+    font-size: 25px;
+    text-decoration: underline;
   }
 
 }
